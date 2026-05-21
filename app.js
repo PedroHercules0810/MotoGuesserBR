@@ -41,12 +41,12 @@ function desenharTentativa(motoPalpite, motoAlvo) {
     const linha = document.createElement('div')
     linha.classList.add('lista-tentativa')
 
-    const classeModelo = 'Modelo'+ (motoPalpite.modelo === motoAlvo.modelo ? 'correto' : '')
-    const caixaModelo = criarCaixa(motoPalpite.modelo, classeModelo)
+    const classeModelo = (motoPalpite.modelo === motoAlvo.modelo ? 'correto' : '')
+    const caixaModelo = criarCaixa('Modelo: '+ motoPalpite.modelo, classeModelo)
     linha.appendChild(caixaModelo)
 
     const classeEstilo = (motoPalpite.estilo === motoAlvo.estilo ? 'correto' : '')
-    const caixaEstilo = criarCaixa(motoPalpite.estilo,classeEstilo);
+    const caixaEstilo = criarCaixa('Estilo: '+motoPalpite.estilo,classeEstilo);
     linha.appendChild(caixaEstilo);
 
     let textoCC = 'Cilindradas: '+motoPalpite.cilindrada;
