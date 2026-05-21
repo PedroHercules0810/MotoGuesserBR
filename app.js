@@ -17,6 +17,13 @@ async function carregarMotos() {
 
         console.log("A moto do dia é:", motoDia.modelo)
 
+        const datalist = document.getElementById('sugestoes')
+        listaMotos.forEach(moto => {
+            const option = document.createElement('option')
+            option.value = moto.modelo
+            datalist.appendChild(option)
+        });
+
     } catch (error) {
         console.error('Erro no carregamento das motos:', error)
     }
