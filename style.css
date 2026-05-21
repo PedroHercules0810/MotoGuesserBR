@@ -1,0 +1,55 @@
+/* style.css */
+
+/* O container principal das tentativas */
+.painelJogo {
+    display: flex;
+    flex-direction: column; /* As linhas empilham na vertical */
+    gap: 10px; /* Espaço entre cada chute */
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px; /* Bom para PC, não quebra no mobile */
+}
+
+/* A linha que representa UM chute do usuário */
+.linha-tentativa {
+    display: grid;
+    /* Divide a linha em 5 colunas iguais para Modelo, Estilo, CC, Cilindros, Ano */
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 5px;
+}
+
+/* A caixinha individual de cada atributo */
+.caixa-atributo {
+    background-color: #787c7e; /* Cinza padrão para "errado" ou sem comparação */
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid #d3d6da;
+    
+    /* Animaçãozinha suave na cor */
+    transition: background-color 0.3s ease; 
+}
+
+/* Classes utilitárias de cor (as mesmas do Wordle) */
+.correto {
+    background-color: #6aaa64; /* Verde */
+    border-color: #6aaa64;
+}
+
+.errado-numerico {
+    background-color: #787c7e; /* Mantém cinza, mas vamos adicionar a seta no texto */
+}
+
+/* No mobile, diminui um pouco a fonte */
+@media (max-width: 480px) {
+    .caixa-atributo {
+        font-size: 0.9rem;
+        height: 50px;
+    }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "marca": "Yamaha",
+    "modelo": "R3",
+    "estilo": "Esportiva",
+    "cilindrada": 321,
+    "cilindros": 2,
+    "peso_seco_kg": 169
+  },
+  {
+    "id": 2,
+    "marca": "Kawasaki",
+    "modelo": "Ninja 300",
+    "estilo": "Esportiva",
+    "cilindrada": 296,
+    "cilindros": 2,
+    "peso_seco_kg": 164
+  },
+  {
+    "id": 3,
+    "marca": "Yamaha",
+    "modelo": "Lander 250",
+    "estilo": "Trail",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 143
+  }
+]
