@@ -49,14 +49,14 @@ function desenharTentativa(motoPalpite, motoAlvo) {
     linha.classList.add('linha-tentativa')
 
     const classeModelo = (motoPalpite.modelo === motoAlvo.modelo ? 'correto' : '')
-    const caixaModelo = criarCaixa('Modelo: '+ motoPalpite.modelo, classeModelo)
+    const caixaModelo = criarCaixa( motoPalpite.modelo, classeModelo)
     linha.appendChild(caixaModelo)
 
     const classeEstilo = (motoPalpite.estilo === motoAlvo.estilo ? 'correto' : '')
-    const caixaEstilo = criarCaixa('Estilo: '+motoPalpite.estilo,classeEstilo);
+    const caixaEstilo = criarCaixa(motoPalpite.estilo,classeEstilo);
     linha.appendChild(caixaEstilo);
 
-    let textoCC = 'Cilindradas: '+motoPalpite.cilindrada;
+    let textoCC = motoPalpite.cilindrada;
     let classeCC = '';
 
     if (motoPalpite.cilindrada === motoAlvo.cilindrada) {
@@ -68,7 +68,7 @@ function desenharTentativa(motoPalpite, motoAlvo) {
     const caixaCC = criarCaixa(textoCC, classeCC)
     linha.appendChild(caixaCC)
 
-    let textoCilindros = 'Quantidade de cilindros: '+motoPalpite.cilindros;
+    let textoCilindros = motoPalpite.cilindros;
     let classeCilindros = '';
     if(motoPalpite.cilindros === motoAlvo.cilindros){
         classeCilindros = 'correto';
@@ -78,7 +78,7 @@ function desenharTentativa(motoPalpite, motoAlvo) {
     const caixaCilindros = criarCaixa(textoCilindros, classeCilindros);
     linha.appendChild(caixaCilindros);
 
-    let textoPeso = 'Peso seco:' + motoPalpite.peso_seco_kg;
+    let textoPeso =  motoPalpite.peso_seco_kg;
     let classePeso = '';
     if(motoPalpite.peso_seco_kg === motoAlvo.peso_seco_kg){
         classePeso = 'correto';

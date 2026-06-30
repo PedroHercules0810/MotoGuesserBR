@@ -14,16 +14,28 @@
 }
 
 
+/* Estilo do cabeçalho das colunas */
+.cabecalho-tentativa {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Garante as mesmas 5 colunas das caixas */
+    gap: 10px; /* O mesmo espaço exato que usas na classe .linha-tentativa */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000000; /* Altera para a cor que melhor contrastar com o teu fundo */
+    margin-bottom: 5px; /* Espaço entre o cabeçalho e a primeira tentativa */
+}
+
+
 /* O container principal das tentativas */
 .painelJogo {
     display: flex;
-    flex-direction: column; /* As linhas empilham na vertical */
-    gap: 10px; /* Espaço entre cada chute */
-    margin-top: 20px;
+    flex-direction: column; 
+    gap: 10px; 
+    margin: 20px auto; /* O 'auto' serve para centralizar o bloco no meio do ecrã */
     width: 100%;
-    max-width: 600px; /* Bom para PC, não quebra no mobile */
+    max-width: 600px; 
 }
-
 /* A linha que representa UM chute do usuário */
 .linha-tentativa {
     justify-content: center;
