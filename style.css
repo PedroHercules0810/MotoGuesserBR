@@ -1,9 +1,23 @@
 /* style.css */
 
+.titulo {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 20px;
+    color: #ff0000;
+}
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
 /* O container principal das tentativas */
 .painelJogo {
     display: flex;
-    flex-direction: column; /* As linhas empilham na vertical */
+    flex-direction: row; /* As linhas empilham na vertical */
     gap: 10px; /* Espaço entre cada chute */
     margin-top: 20px;
     width: 100%;
@@ -13,8 +27,7 @@
 /* A linha que representa UM chute do usuário */
 .linha-tentativa {
     display: grid;
-    /* Divide a linha em 5 colunas iguais para Modelo, Estilo, CC, Cilindros, Ano */
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr); 
     gap: 5px;
 }
 
