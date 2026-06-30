@@ -17,7 +17,7 @@
 /* O container principal das tentativas */
 .painelJogo {
     display: flex;
-    flex-direction: row; /* As linhas empilham na vertical */
+    flex-direction: column; /* As linhas empilham na vertical */
     gap: 10px; /* Espaço entre cada chute */
     margin-top: 20px;
     width: 100%;
@@ -26,14 +26,15 @@
 
 /* A linha que representa UM chute do usuário */
 .linha-tentativa {
-    display: grid;
-    grid-template-rows: repeat(5, 1fr); 
-    gap: 5px;
+    justify-content: center;
+    display: inline-grid; /* Mudado de table para grid */
+    grid-template-columns: repeat(5, 1fr); /* Mudado de rows para columns */
+    gap: 10px; /* Reduzido de 100px para um espaço normal */
 }
 
 /* A caixinha individual de cada atributo */
 .caixa-atributo {
-    background-color: #787c7e; /* Cinza padrão para "errado" ou sem comparação */
+    background-color: #ff0000; /* Vermelho para "errado" ou sem comparação */
     color: white;
     height: 60px;
     display: flex;
@@ -46,7 +47,7 @@
     border: 2px solid #d3d6da;
     
     /* Animaçãozinha suave na cor */
-    transition: background-color 0.3s ease; 
+    transition: background-color 1.3s ease; 
 }
 
 /* Classes utilitárias de cor (as mesmas do Wordle) */
@@ -56,7 +57,7 @@
 }
 
 .errado-numerico {
-    background-color: #787c7e; /* Mantém cinza, mas vamos adicionar a seta no texto */
+    background-color: #ff0000; /* Vermelho para "errado" ou sem comparação */
 }
 
 /* No mobile, diminui um pouco a fonte */

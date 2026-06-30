@@ -46,7 +46,7 @@ function criarCaixa(conteudo, classeCor ='') {
 function desenharTentativa(motoPalpite, motoAlvo) {
     const container = document.getElementById('containerTentativas')
     const linha = document.createElement('div')
-    linha.classList.add('linhaa-tentativa')
+    linha.classList.add('linha-tentativa')
 
     const classeModelo = (motoPalpite.modelo === motoAlvo.modelo ? 'correto' : '')
     const caixaModelo = criarCaixa('Modelo: '+ motoPalpite.modelo, classeModelo)
