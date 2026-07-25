@@ -1,6 +1,15 @@
 const inputMoto = document.getElementById('inputMoto')
 const btnPalpite = document.getElementById('btnPalpite')
 
+const data = new Date();
+let dia = data.getDate();
+let mes = data.getMonth() + 1; // Os meses em JavaScript são baseados em zero
+let ano = data.getFullYear();
+
+let seedData = Date.parse(`${ano}-${mes}-${dia}`);
+console.log(`Seed gerada a partir da data ${ano}-${mes}-${dia}:`, seedData);
+
+
 let listaMotos = []
 let motoDia = []
 
@@ -12,7 +21,7 @@ async function carregarMotos() {
 
         !Array.isArray(listaMotos) ? console.error('erro no carregamento do json', error) : console.log('Base de motos carregada com sucesso!');
 
-        const indiceDia = Math.floor(Math.random() * listaMotos.length)
+        const indiceDia = Math.floor(listaMotos.length * seedData/1000000000) % listaMotos.length
         motoDia = listaMotos[indiceDia]
 
         console.log("A moto do dia é:", motoDia.modelo)
