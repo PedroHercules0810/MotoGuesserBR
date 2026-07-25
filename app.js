@@ -52,6 +52,10 @@ function desenharTentativa(motoPalpite, motoAlvo) {
     const caixaModelo = criarCaixa( motoPalpite.modelo, classeModelo)
     linha.appendChild(caixaModelo)
 
+    const classeMarca = (motoPalpite.marca === motoAlvo.marca ? 'correto' : '')
+    const caixaMarca = criarCaixa( motoPalpite.marca, classeMarca)
+    linha.appendChild(caixaMarca)
+
     const classeEstilo = (motoPalpite.estilo === motoAlvo.estilo ? 'correto' : '')
     const caixaEstilo = criarCaixa(motoPalpite.estilo,classeEstilo);
     linha.appendChild(caixaEstilo);

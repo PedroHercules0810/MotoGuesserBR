@@ -33,15 +33,16 @@
     flex-direction: column; 
     gap: 10px; 
     margin: 20px auto; /* O 'auto' serve para centralizar o bloco no meio do ecrã */
-    width: 100%;
-    max-width: 600px; 
+    width: 70%;
+    max-width: 900px; 
 }
 /* A linha que representa UM chute do usuário */
 .linha-tentativa {
-    justify-content: center;
-    display: inline-grid; /* Mudado de table para grid */
-    grid-template-columns: repeat(5, 1fr); /* Mudado de rows para columns */
-    gap: 10px; /* Reduzido de 100px para um espaço normal */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    align-items: center;
 }
 
 /* A caixinha individual de cada atributo */
