@@ -17,7 +17,7 @@
 /* Estilo do cabeçalho das colunas */
 .cabecalho-tentativa {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Garante as mesmas 5 colunas das caixas */
+    grid-template-columns: repeat(6, 1fr); /* Garante as mesmas 5 colunas das caixas */
     gap: 10px; /* O mesmo espaço exato que usas na classe .linha-tentativa */
     text-align: center;
     font-weight: bold;
@@ -38,10 +38,9 @@
 }
 /* A linha que representa UM chute do usuário */
 .linha-tentativa {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
     align-items: center;
 }
 
