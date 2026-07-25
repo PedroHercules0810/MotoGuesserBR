@@ -2,34 +2,34 @@
   {
     "id": 1,
     "marca": "Honda",
-    "modelo": "Pop 110i ES",
-    "estilo": "Cub",
-    "cilindrada": 109.5,
+    "modelo": "CG 50 anos",
+    "estilo": "Street",
+    "cilindrada": 162.7,
     "cilindros": 1,
-    "peso_seco_kg": 87
+    "peso_seco_kg": 117
   },
   {
     "id": 2,
     "marca": "Honda",
-    "modelo": "Biz 125",
-    "estilo": "Cub",
-    "cilindrada": 123.9,
-    "cilindros": 1,
-    "peso_seco_kg": 96
-  },
-  {
-    "id": 3,
-    "marca": "Honda",
-    "modelo": "CG 160 Start",
+    "modelo": "CG160 Start",
     "estilo": "Street",
     "cilindrada": 162.7,
     "cilindros": 1,
     "peso_seco_kg": 115
   },
   {
+    "id": 3,
+    "marca": "Honda",
+    "modelo": "CG160 Fan",
+    "estilo": "Street",
+    "cilindrada": 162.7,
+    "cilindros": 1,
+    "peso_seco_kg": 117
+  },
+  {
     "id": 4,
     "marca": "Honda",
-    "modelo": "CG 160 Fan",
+    "modelo": "CG160 Titan",
     "estilo": "Street",
     "cilindrada": 162.7,
     "cilindros": 1,
@@ -38,176 +38,419 @@
   {
     "id": 5,
     "marca": "Honda",
-    "modelo": "CG 160 Titan",
-    "estilo": "Street",
-    "cilindrada": 162.7,
-    "cilindros": 1,
-    "peso_seco_kg": 117
-  },
-  {
-    "id": 6,
-    "marca": "Honda",
-    "modelo": "CG 160 Cargo",
+    "modelo": "CG160 Cargo",
     "estilo": "Street",
     "cilindrada": 162.7,
     "cilindros": 1,
     "peso_seco_kg": 119
   },
   {
+    "id": 6,
+    "marca": "Honda",
+    "modelo": "Pop110i ES",
+    "estilo": "Cub",
+    "cilindrada": 109.5,
+    "cilindros": 1,
+    "peso_seco_kg": 87
+  },
+  {
     "id": 7,
     "marca": "Honda",
-    "modelo": "NXR 160 Bros",
-    "estilo": "Trail",
-    "cilindrada": 162.7,
+    "modelo": "Biz125",
+    "estilo": "Cub",
+    "cilindrada": 123.9,
     "cilindros": 1,
-    "peso_seco_kg": 125
+    "peso_seco_kg": 96
   },
   {
     "id": 8,
     "marca": "Honda",
-    "modelo": "XRE 190",
-    "estilo": "Trail",
-    "cilindrada": 184.4,
-    "cilindros": 1,
-    "peso_seco_kg": 137
-  },
-  {
-    "id": 9,
-    "marca": "Honda",
-    "modelo": "CB 300F Twister",
-    "estilo": "Naked",
-    "cilindrada": 293.5,
-    "cilindros": 1,
-    "peso_seco_kg": 139
-  },
-  {
-    "id": 10,
-    "marca": "Honda",
-    "modelo": "XRE 300 Sahara",
-    "estilo": "Trail",
-    "cilindrada": 293.5,
-    "cilindros": 1,
-    "peso_seco_kg": 147
-  },
-  {
-    "id": 11,
-    "marca": "Honda",
-    "modelo": "XR 300L Tornado",
-    "estilo": "Trail",
-    "cilindrada": 293.5,
-    "cilindros": 1,
-    "peso_seco_kg": 143
-  },
-  {
-    "id": 12,
-    "marca": "Honda",
-    "modelo": "Elite 125",
+    "modelo": "Elite125",
     "estilo": "Scooter",
     "cilindrada": 123.9,
     "cilindros": 1,
     "peso_seco_kg": 104
   },
   {
-    "id": 13,
+    "id": 9,
     "marca": "Honda",
-    "modelo": "PCX 160",
+    "modelo": "PCX",
     "estilo": "Scooter",
     "cilindrada": 156.9,
     "cilindros": 1,
     "peso_seco_kg": 126
   },
   {
-    "id": 14,
+    "id": 10,
     "marca": "Honda",
-    "modelo": "ADV 160",
+    "modelo": "Honda ADV",
     "estilo": "Scooter",
     "cilindrada": 156.9,
     "cilindros": 1,
     "peso_seco_kg": 133
   },
   {
+    "id": 11,
+    "marca": "Honda",
+    "modelo": "X-ADV",
+    "estilo": "Crossover",
+    "cilindrada": 745,
+    "cilindros": 2,
+    "peso_seco_kg": 237
+  },
+  {
+    "id": 12,
+    "marca": "Honda",
+    "modelo": "CB300F Twister",
+    "estilo": "Naked",
+    "cilindrada": 293.5,
+    "cilindros": 1,
+    "peso_seco_kg": 139
+  },
+  {
+    "id": 13,
+    "marca": "Honda",
+    "modelo": "CB500 Hornet",
+    "estilo": "Naked",
+    "cilindrada": 471,
+    "cilindros": 2,
+    "peso_seco_kg": 188
+  },
+  {
+    "id": 14,
+    "marca": "Honda",
+    "modelo": "CB650R E-Clutch",
+    "estilo": "Naked",
+    "cilindrada": 649,
+    "cilindros": 4,
+    "peso_seco_kg": 205.8
+  },
+  {
     "id": 15,
+    "marca": "Honda",
+    "modelo": "CB750 Hornet",
+    "estilo": "Naked",
+    "cilindrada": 755,
+    "cilindros": 2,
+    "peso_seco_kg": 190
+  },
+  {
+    "id": 16,
+    "marca": "Honda",
+    "modelo": "CB1000R",
+    "estilo": "Naked",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 212
+  },
+  {
+    "id": 17,
+    "marca": "Honda",
+    "modelo": "CB1000R Black Edition",
+    "estilo": "Naked",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 212
+  },
+  {
+    "id": 18,
+    "marca": "Honda",
+    "modelo": "NXR160 Bros",
+    "estilo": "Trail",
+    "cilindrada": 162.7,
+    "cilindros": 1,
+    "peso_seco_kg": 125
+  },
+  {
+    "id": 19,
+    "marca": "Honda",
+    "modelo": "XRE190",
+    "estilo": "Trail",
+    "cilindrada": 184.4,
+    "cilindros": 1,
+    "peso_seco_kg": 137
+  },
+  {
+    "id": 20,
+    "marca": "Honda",
+    "modelo": "XRE300 Sahara",
+    "estilo": "Trail",
+    "cilindrada": 293.5,
+    "cilindros": 1,
+    "peso_seco_kg": 147
+  },
+  {
+    "id": 21,
+    "marca": "Honda",
+    "modelo": "XR300L Tornado",
+    "estilo": "Trail",
+    "cilindrada": 293.5,
+    "cilindros": 1,
+    "peso_seco_kg": 143
+  },
+  {
+    "id": 22,
+    "marca": "Honda",
+    "modelo": "Tornado Special Edition",
+    "estilo": "Trail",
+    "cilindrada": 293.5,
+    "cilindros": 1,
+    "peso_seco_kg": 143
+  },
+  {
+    "id": 23,
+    "marca": "Honda",
+    "modelo": "XL750 Transalp",
+    "estilo": "Adventure",
+    "cilindrada": 755,
+    "cilindros": 2,
+    "peso_seco_kg": 208
+  },
+  {
+    "id": 24,
+    "marca": "Honda",
+    "modelo": "NX500",
+    "estilo": "Crossover",
+    "cilindrada": 471,
+    "cilindros": 2,
+    "peso_seco_kg": 196
+  },
+  {
+    "id": 25,
+    "marca": "Honda",
+    "modelo": "NC750X",
+    "estilo": "Crossover",
+    "cilindrada": 745,
+    "cilindros": 2,
+    "peso_seco_kg": 214
+  },
+  {
+    "id": 26,
+    "marca": "Honda",
+    "modelo": "CRF1100L Africa Twin",
+    "estilo": "Adventure",
+    "cilindrada": 1084,
+    "cilindros": 2,
+    "peso_seco_kg": 242
+  },
+  {
+    "id": 27,
+    "marca": "Honda",
+    "modelo": "CRF300F",
+    "estilo": "Off-road",
+    "cilindrada": 293.5,
+    "cilindros": 1,
+    "peso_seco_kg": 119
+  },
+  {
+    "id": 28,
+    "marca": "Honda",
+    "modelo": "CRF250R",
+    "estilo": "Off-road",
+    "cilindrada": 249.4,
+    "cilindros": 1,
+    "peso_seco_kg": 108
+  },
+  {
+    "id": 29,
+    "marca": "Honda",
+    "modelo": "CRF250RX",
+    "estilo": "Off-road",
+    "cilindrada": 249.4,
+    "cilindros": 1,
+    "peso_seco_kg": 108
+  },
+  {
+    "id": 30,
+    "marca": "Honda",
+    "modelo": "CRF450R",
+    "estilo": "Off-road",
+    "cilindrada": 449.7,
+    "cilindros": 1,
+    "peso_seco_kg": 110
+  },
+  {
+    "id": 31,
+    "marca": "Honda",
+    "modelo": "CRF450RX",
+    "estilo": "Off-road",
+    "cilindrada": 449.7,
+    "cilindros": 1,
+    "peso_seco_kg": 119
+  },
+  {
+    "id": 32,
+    "marca": "Honda",
+    "modelo": "CRF450RWE",
+    "estilo": "Off-road",
+    "cilindrada": 449.7,
+    "cilindros": 1,
+    "peso_seco_kg": 110
+  },
+  {
+    "id": 33,
+    "marca": "Honda",
+    "modelo": "TRX 420FM",
+    "estilo": "Quadriciclo",
+    "cilindrada": 420,
+    "cilindros": 1,
+    "peso_seco_kg": 291
+  },
+  {
+    "id": 34,
+    "marca": "Honda",
+    "modelo": "CBR1000RR-R Fireblade SP",
+    "estilo": "Esportiva",
+    "cilindrada": 999.9,
+    "cilindros": 4,
+    "peso_seco_kg": 201
+  },
+  {
+    "id": 35,
+    "marca": "Honda",
+    "modelo": "GL1800 Gold Wing Tour",
+    "estilo": "Touring",
+    "cilindrada": 1833,
+    "cilindros": 6,
+    "peso_seco_kg": 390
+  },
+  {
+    "id": 36,
+    "marca": "Honda",
+    "modelo": "Gold Wing 50 anos",
+    "estilo": "Touring",
+    "cilindrada": 1833,
+    "cilindros": 6,
+    "peso_seco_kg": 390
+  },
+  {
+    "id": 37,
     "marca": "Yamaha",
-    "modelo": "Neo's Connected",
+    "modelo": "NEO'S Connected",
     "estilo": "Scooter",
     "cilindrada": 0,
     "cilindros": 0,
     "peso_seco_kg": 98
   },
   {
-    "id": 16,
+    "id": 38,
     "marca": "Yamaha",
-    "modelo": "Fluo ABS Hybrid",
+    "modelo": "Yamaha ZR Hybrid Connected",
     "estilo": "Scooter",
     "cilindrada": 125,
     "cilindros": 1,
     "peso_seco_kg": 102
   },
   {
-    "id": 17,
+    "id": 39,
     "marca": "Yamaha",
-    "modelo": "NMax Connected",
+    "modelo": "Fluo ABS Hybrid Connected",
+    "estilo": "Scooter",
+    "cilindrada": 125,
+    "cilindros": 1,
+    "peso_seco_kg": 102
+  },
+  {
+    "id": 40,
+    "marca": "Yamaha",
+    "modelo": "Aerox ABS Connected",
+    "estilo": "Scooter",
+    "cilindrada": 155,
+    "cilindros": 1,
+    "peso_seco_kg": 130
+  },
+  {
+    "id": 41,
+    "marca": "Yamaha",
+    "modelo": "NMax ABS Connected",
     "estilo": "Scooter",
     "cilindrada": 155,
     "cilindros": 1,
     "peso_seco_kg": 131
   },
   {
-    "id": 18,
+    "id": 42,
     "marca": "Yamaha",
-    "modelo": "XMax 250",
+    "modelo": "XMax 300 Connected",
     "estilo": "Scooter",
-    "cilindrada": 249.5,
+    "cilindrada": 292,
     "cilindros": 1,
-    "peso_seco_kg": 181
+    "peso_seco_kg": 183
   },
   {
-    "id": 19,
+    "id": 43,
     "marca": "Yamaha",
-    "modelo": "Factor 150",
+    "modelo": "Factor",
     "estilo": "Street",
     "cilindrada": 149,
     "cilindros": 1,
-    "peso_seco_kg": 125
+    "peso_seco_kg": 126
   },
   {
-    "id": 20,
+    "id": 44,
     "marca": "Yamaha",
-    "modelo": "FZ15 Connected",
+    "modelo": "Factor DX",
     "estilo": "Street",
     "cilindrada": 149,
     "cilindros": 1,
-    "peso_seco_kg": 136
+    "peso_seco_kg": 126
   },
   {
-    "id": 21,
+    "id": 45,
     "marca": "Yamaha",
-    "modelo": "FZ25 Connected",
+    "modelo": "Fazer FZ15 ABS Connected",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 137
+  },
+  {
+    "id": 46,
+    "marca": "Yamaha",
+    "modelo": "Fazer FZ15 ABS Connected Deadpool",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 137
+  },
+  {
+    "id": 47,
+    "marca": "Yamaha",
+    "modelo": "Fazer FZ25 Connected",
     "estilo": "Naked",
     "cilindrada": 249.5,
     "cilindros": 1,
     "peso_seco_kg": 151
   },
   {
-    "id": 22,
+    "id": 48,
     "marca": "Yamaha",
-    "modelo": "Crosser S ABS",
+    "modelo": "Crosser 150 S ABS",
     "estilo": "Trail",
     "cilindrada": 149,
     "cilindros": 1,
     "peso_seco_kg": 129
   },
   {
-    "id": 23,
+    "id": 49,
     "marca": "Yamaha",
-    "modelo": "Crosser Z ABS",
+    "modelo": "Crosser 150 Z ABS",
     "estilo": "Trail",
     "cilindrada": 149,
     "cilindros": 1,
     "peso_seco_kg": 129
   },
   {
-    "id": 24,
+    "id": 50,
+    "marca": "Yamaha",
+    "modelo": "Crosser Z ABS Wolverine",
+    "estilo": "Trail",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 129
+  },
+  {
+    "id": 51,
     "marca": "Yamaha",
     "modelo": "Lander Connected",
     "estilo": "Trail",
@@ -216,7 +459,16 @@
     "peso_seco_kg": 143
   },
   {
-    "id": 25,
+    "id": 52,
+    "marca": "Yamaha",
+    "modelo": "Ténéré 700",
+    "estilo": "Adventure",
+    "cilindrada": 689,
+    "cilindros": 2,
+    "peso_seco_kg": 208
+  },
+  {
+    "id": 53,
     "marca": "Yamaha",
     "modelo": "R15 ABS",
     "estilo": "Esportiva",
@@ -225,228 +477,894 @@
     "peso_seco_kg": 142
   },
   {
-    "id": 26,
+    "id": 54,
     "marca": "Yamaha",
-    "modelo": "R3 ABS",
+    "modelo": "R15 ABS 70th",
+    "estilo": "Esportiva",
+    "cilindrada": 155,
+    "cilindros": 1,
+    "peso_seco_kg": 142
+  },
+  {
+    "id": 55,
+    "marca": "Yamaha",
+    "modelo": "R3 ABS Connected",
     "estilo": "Esportiva",
     "cilindrada": 321,
     "cilindros": 2,
     "peso_seco_kg": 169
   },
   {
-    "id": 27,
+    "id": 56,
     "marca": "Yamaha",
-    "modelo": "MT-03 ABS",
+    "modelo": "R3 ABS Connected 70th",
+    "estilo": "Esportiva",
+    "cilindrada": 321,
+    "cilindros": 2,
+    "peso_seco_kg": 169
+  },
+  {
+    "id": 57,
+    "marca": "Yamaha",
+    "modelo": "MT-03 Connected",
     "estilo": "Naked",
     "cilindrada": 321,
     "cilindros": 2,
     "peso_seco_kg": 168
   },
   {
-    "id": 28,
+    "id": 58,
+    "marca": "Yamaha",
+    "modelo": "MT-07 Connected",
+    "estilo": "Naked",
+    "cilindrada": 689,
+    "cilindros": 2,
+    "peso_seco_kg": 183
+  },
+  {
+    "id": 59,
     "marca": "Yamaha",
     "modelo": "TT-R 230",
     "estilo": "Off-road",
-    "cilindrada": 230,
+    "cilindrada": 223,
     "cilindros": 1,
     "peso_seco_kg": 117
   },
   {
-    "id": 29,
+    "id": 60,
+    "marca": "Yamaha",
+    "modelo": "PW50",
+    "estilo": "Off-road",
+    "cilindrada": 49,
+    "cilindros": 1,
+    "peso_seco_kg": 41
+  },
+  {
+    "id": 61,
+    "marca": "Yamaha",
+    "modelo": "YZ65",
+    "estilo": "Off-road",
+    "cilindrada": 65,
+    "cilindros": 1,
+    "peso_seco_kg": 61
+  },
+  {
+    "id": 62,
+    "marca": "Yamaha",
+    "modelo": "YZ85LW",
+    "estilo": "Off-road",
+    "cilindrada": 85,
+    "cilindros": 1,
+    "peso_seco_kg": 75
+  },
+  {
+    "id": 63,
+    "marca": "Yamaha",
+    "modelo": "YZ125",
+    "estilo": "Off-road",
+    "cilindrada": 125,
+    "cilindros": 1,
+    "peso_seco_kg": 96
+  },
+  {
+    "id": 64,
+    "marca": "Yamaha",
+    "modelo": "YZ250",
+    "estilo": "Off-road",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 108
+  },
+  {
+    "id": 65,
+    "marca": "Yamaha",
+    "modelo": "YZ250F",
+    "estilo": "Off-road",
+    "cilindrada": 250,
+    "cilindros": 1,
+    "peso_seco_kg": 106
+  },
+  {
+    "id": 66,
+    "marca": "Yamaha",
+    "modelo": "YZ450F",
+    "estilo": "Off-road",
+    "cilindrada": 450,
+    "cilindros": 1,
+    "peso_seco_kg": 109
+  },
+  {
+    "id": 67,
+    "marca": "Yamaha",
+    "modelo": "WR250F",
+    "estilo": "Off-road",
+    "cilindrada": 250,
+    "cilindros": 1,
+    "peso_seco_kg": 108
+  },
+  {
+    "id": 68,
+    "marca": "Yamaha",
+    "modelo": "WR450F",
+    "estilo": "Off-road",
+    "cilindrada": 450,
+    "cilindros": 1,
+    "peso_seco_kg": 119
+  },
+  {
+    "id": 69,
+    "marca": "Kawasaki",
+    "modelo": "Ninja 500",
+    "estilo": "Esportiva",
+    "cilindrada": 451,
+    "cilindros": 2,
+    "peso_seco_kg": 171
+  },
+  {
+    "id": 70,
+    "marca": "Kawasaki",
+    "modelo": "Ninja 500 SE",
+    "estilo": "Esportiva",
+    "cilindrada": 451,
+    "cilindros": 2,
+    "peso_seco_kg": 172
+  },
+  {
+    "id": 71,
+    "marca": "Kawasaki",
+    "modelo": "Ninja 650",
+    "estilo": "Esportiva",
+    "cilindrada": 649,
+    "cilindros": 2,
+    "peso_seco_kg": 193
+  },
+  {
+    "id": 72,
+    "marca": "Kawasaki",
+    "modelo": "Ninja ZX-4RR",
+    "estilo": "Esportiva",
+    "cilindrada": 399,
+    "cilindros": 4,
+    "peso_seco_kg": 189
+  },
+  {
+    "id": 73,
+    "marca": "Kawasaki",
+    "modelo": "Ninja ZX-6R",
+    "estilo": "Esportiva",
+    "cilindrada": 636,
+    "cilindros": 4,
+    "peso_seco_kg": 198
+  },
+  {
+    "id": 74,
+    "marca": "Kawasaki",
+    "modelo": "Ninja ZX-10R",
+    "estilo": "Esportiva",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 207
+  },
+  {
+    "id": 75,
+    "marca": "Kawasaki",
+    "modelo": "Ninja ZX-10RR",
+    "estilo": "Esportiva",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 207
+  },
+  {
+    "id": 76,
+    "marca": "Kawasaki",
+    "modelo": "Ninja H2",
+    "estilo": "Esportiva",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 238
+  },
+  {
+    "id": 77,
+    "marca": "Kawasaki",
+    "modelo": "Ninja H2 SX SE",
+    "estilo": "Sport Touring",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 267
+  },
+  {
+    "id": 78,
+    "marca": "Kawasaki",
+    "modelo": "Z500",
+    "estilo": "Naked",
+    "cilindrada": 451,
+    "cilindros": 2,
+    "peso_seco_kg": 167
+  },
+  {
+    "id": 79,
+    "marca": "Kawasaki",
+    "modelo": "Z650",
+    "estilo": "Naked",
+    "cilindrada": 649,
+    "cilindros": 2,
+    "peso_seco_kg": 188
+  },
+  {
+    "id": 80,
+    "marca": "Kawasaki",
+    "modelo": "Z900",
+    "estilo": "Naked",
+    "cilindrada": 948,
+    "cilindros": 4,
+    "peso_seco_kg": 213
+  },
+  {
+    "id": 81,
+    "marca": "Kawasaki",
+    "modelo": "Z900 SE",
+    "estilo": "Naked",
+    "cilindrada": 948,
+    "cilindros": 4,
+    "peso_seco_kg": 213
+  },
+  {
+    "id": 82,
+    "marca": "Kawasaki",
+    "modelo": "Z900RS",
+    "estilo": "Retrô",
+    "cilindrada": 948,
+    "cilindros": 4,
+    "peso_seco_kg": 215
+  },
+  {
+    "id": 83,
+    "marca": "Kawasaki",
+    "modelo": "Z H2",
+    "estilo": "Naked",
+    "cilindrada": 998,
+    "cilindros": 4,
+    "peso_seco_kg": 239
+  },
+  {
+    "id": 84,
+    "marca": "Kawasaki",
+    "modelo": "Versys 650",
+    "estilo": "Crossover",
+    "cilindrada": 649,
+    "cilindros": 2,
+    "peso_seco_kg": 219
+  },
+  {
+    "id": 85,
+    "marca": "Kawasaki",
+    "modelo": "Versys 1100",
+    "estilo": "Adventure",
+    "cilindrada": 1099,
+    "cilindros": 4,
+    "peso_seco_kg": 257
+  },
+  {
+    "id": 86,
+    "marca": "Kawasaki",
+    "modelo": "Eliminator 500",
+    "estilo": "Custom",
+    "cilindrada": 451,
+    "cilindros": 2,
+    "peso_seco_kg": 176
+  },
+  {
+    "id": 87,
+    "marca": "Kawasaki",
+    "modelo": "Vulcan S",
+    "estilo": "Custom",
+    "cilindrada": 649,
+    "cilindros": 2,
+    "peso_seco_kg": 229
+  },
+  {
+    "id": 88,
+    "marca": "Kawasaki",
+    "modelo": "W800",
+    "estilo": "Retrô",
+    "cilindrada": 773,
+    "cilindros": 2,
+    "peso_seco_kg": 226
+  },
+  {
+    "id": 89,
+    "marca": "Kawasaki",
+    "modelo": "KLX110R",
+    "estilo": "Off-road",
+    "cilindrada": 112,
+    "cilindros": 1,
+    "peso_seco_kg": 76
+  },
+  {
+    "id": 90,
+    "marca": "Kawasaki",
+    "modelo": "KX250",
+    "estilo": "Off-road",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 108
+  },
+  {
+    "id": 91,
+    "marca": "Kawasaki",
+    "modelo": "KX450",
+    "estilo": "Off-road",
+    "cilindrada": 449,
+    "cilindros": 1,
+    "peso_seco_kg": 111
+  },
+  {
+    "id": 92,
+    "marca": "Kawasaki",
+    "modelo": "KX450X",
+    "estilo": "Off-road",
+    "cilindrada": 449,
+    "cilindros": 1,
+    "peso_seco_kg": 112
+  },
+  {
+    "id": 93,
+    "marca": "Harley-Davidson",
+    "modelo": "Sportster S",
+    "estilo": "Naked",
+    "cilindrada": 1252,
+    "cilindros": 2,
+    "peso_seco_kg": 228
+  },
+  {
+    "id": 94,
+    "marca": "Harley-Davidson",
+    "modelo": "Pan America 1250 Special",
+    "estilo": "Adventure",
+    "cilindrada": 1252,
+    "cilindros": 2,
+    "peso_seco_kg": 258
+  },
+  {
+    "id": 95,
+    "marca": "Harley-Davidson",
+    "modelo": "Street Bob 117",
+    "estilo": "Custom",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 286
+  },
+  {
+    "id": 96,
+    "marca": "Harley-Davidson",
+    "modelo": "Low Rider S",
+    "estilo": "Custom",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 308
+  },
+  {
+    "id": 97,
+    "marca": "Harley-Davidson",
+    "modelo": "Breakout 117",
+    "estilo": "Custom",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 309
+  },
+  {
+    "id": 98,
+    "marca": "Harley-Davidson",
+    "modelo": "Fat Boy 117",
+    "estilo": "Custom",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 315
+  },
+  {
+    "id": 99,
+    "marca": "Harley-Davidson",
+    "modelo": "Heritage Classic 117",
+    "estilo": "Custom",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 330
+  },
+  {
+    "id": 100,
+    "marca": "Harley-Davidson",
+    "modelo": "Low Rider ST",
+    "estilo": "Custom",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 317
+  },
+  {
+    "id": 101,
+    "marca": "Harley-Davidson",
+    "modelo": "Street Glide",
+    "estilo": "Touring",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 351
+  },
+  {
+    "id": 102,
+    "marca": "Harley-Davidson",
+    "modelo": "Road Glide",
+    "estilo": "Touring",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 380
+  },
+  {
+    "id": 103,
+    "marca": "Harley-Davidson",
+    "modelo": "Street Glide Limited",
+    "estilo": "Touring",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 390
+  },
+  {
+    "id": 104,
+    "marca": "Harley-Davidson",
+    "modelo": "Road Glide Limited",
+    "estilo": "Touring",
+    "cilindrada": 1923,
+    "cilindros": 2,
+    "peso_seco_kg": 393
+  },
+  {
+    "id": 105,
+    "marca": "Harley-Davidson",
+    "modelo": "CVO Road Glide ST",
+    "estilo": "Touring",
+    "cilindrada": 1977,
+    "cilindros": 2,
+    "peso_seco_kg": 363
+  },
+  {
+    "id": 106,
+    "marca": "Harley-Davidson",
+    "modelo": "CVO Street Glide Limited",
+    "estilo": "Touring",
+    "cilindrada": 1977,
+    "cilindros": 2,
+    "peso_seco_kg": 390
+  },
+  {
+    "id": 107,
+    "marca": "BMW",
+    "modelo": "G 310 GS",
+    "estilo": "Adventure",
+    "cilindrada": 313,
+    "cilindros": 1,
+    "peso_seco_kg": 175
+  },
+  {
+    "id": 108,
+    "marca": "BMW",
+    "modelo": "F 800 GS",
+    "estilo": "Adventure",
+    "cilindrada": 895,
+    "cilindros": 2,
+    "peso_seco_kg": 227
+  },
+  {
+    "id": 109,
+    "marca": "BMW",
+    "modelo": "F 900 GS",
+    "estilo": "Adventure",
+    "cilindrada": 895,
+    "cilindros": 2,
+    "peso_seco_kg": 219
+  },
+  {
+    "id": 110,
+    "marca": "BMW",
+    "modelo": "F 900 GS Adventure",
+    "estilo": "Adventure",
+    "cilindrada": 895,
+    "cilindros": 2,
+    "peso_seco_kg": 246
+  },
+  {
+    "id": 111,
+    "marca": "BMW",
+    "modelo": "R 1300 GS",
+    "estilo": "Adventure",
+    "cilindrada": 1300,
+    "cilindros": 2,
+    "peso_seco_kg": 237
+  },
+  {
+    "id": 112,
+    "marca": "BMW",
+    "modelo": "R 1300 GS Adventure",
+    "estilo": "Adventure",
+    "cilindrada": 1300,
+    "cilindros": 2,
+    "peso_seco_kg": 269
+  },
+  {
+    "id": 113,
+    "marca": "BMW",
+    "modelo": "G 310 R",
+    "estilo": "Naked",
+    "cilindrada": 313,
+    "cilindros": 1,
+    "peso_seco_kg": 164
+  },
+  {
+    "id": 114,
+    "marca": "BMW",
+    "modelo": "F 900 R",
+    "estilo": "Naked",
+    "cilindrada": 895,
+    "cilindros": 2,
+    "peso_seco_kg": 208
+  },
+  {
+    "id": 115,
+    "marca": "BMW",
+    "modelo": "S 1000 RR",
+    "estilo": "Esportiva",
+    "cilindrada": 999,
+    "cilindros": 4,
+    "peso_seco_kg": 197
+  },
+  {
+    "id": 116,
+    "marca": "BMW",
+    "modelo": "K 1600 B",
+    "estilo": "Touring",
+    "cilindrada": 1649,
+    "cilindros": 6,
+    "peso_seco_kg": 344
+  },
+  {
+    "id": 117,
+    "marca": "BMW",
+    "modelo": "K 1600 GTL",
+    "estilo": "Touring",
+    "cilindrada": 1649,
+    "cilindros": 6,
+    "peso_seco_kg": 358
+  },
+  {
+    "id": 118,
+    "marca": "BMW",
+    "modelo": "R 1300 RT",
+    "estilo": "Touring",
+    "cilindrada": 1300,
+    "cilindros": 2,
+    "peso_seco_kg": 281
+  },
+  {
+    "id": 119,
+    "marca": "BMW",
+    "modelo": "R 12",
+    "estilo": "Retrô",
+    "cilindrada": 1170,
+    "cilindros": 2,
+    "peso_seco_kg": 227
+  },
+  {
+    "id": 120,
+    "marca": "BMW",
+    "modelo": "R 12 G/S",
+    "estilo": "Adventure",
+    "cilindrada": 1170,
+    "cilindros": 2,
+    "peso_seco_kg": 229
+  },
+  {
+    "id": 121,
+    "marca": "BMW",
+    "modelo": "R 18",
+    "estilo": "Custom",
+    "cilindrada": 1802,
+    "cilindros": 2,
+    "peso_seco_kg": 345
+  },
+  {
+    "id": 122,
+    "marca": "BMW",
+    "modelo": "C 400 X",
+    "estilo": "Scooter",
+    "cilindrada": 350,
+    "cilindros": 1,
+    "peso_seco_kg": 206
+  },
+  {
+    "id": 123,
+    "marca": "Shineray",
+    "modelo": "Rio 125 EFI",
+    "estilo": "Street",
+    "cilindrada": 123,
+    "cilindros": 1,
+    "peso_seco_kg": 104
+  },
+  {
+    "id": 124,
+    "marca": "Shineray",
+    "modelo": "Jet 125",
+    "estilo": "Street",
+    "cilindrada": 123,
+    "cilindros": 1,
+    "peso_seco_kg": 110
+  },
+  {
+    "id": 125,
+    "marca": "Shineray",
+    "modelo": "Jet 125 EFI",
+    "estilo": "Street",
+    "cilindrada": 123,
+    "cilindros": 1,
+    "peso_seco_kg": 110
+  },
+  {
+    "id": 126,
+    "marca": "Shineray",
+    "modelo": "Free 150 EFI",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 106
+  },
+  {
+    "id": 127,
+    "marca": "Shineray",
+    "modelo": "JEF 150",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 120
+  },
+  {
+    "id": 128,
+    "marca": "Shineray",
+    "modelo": "JEF 150S EFI",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 120
+  },
+  {
+    "id": 129,
+    "marca": "Shineray",
+    "modelo": "Urban Lite",
+    "estilo": "Street",
+    "cilindrada": 123,
+    "cilindros": 1,
+    "peso_seco_kg": 106
+  },
+  {
+    "id": 130,
+    "marca": "Shineray",
+    "modelo": "Urban 150 EFI",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 111
+  },
+  {
+    "id": 131,
+    "marca": "Shineray",
+    "modelo": "SHI 170",
+    "estilo": "Trail",
+    "cilindrada": 169,
+    "cilindros": 1,
+    "peso_seco_kg": 131
+  },
+  {
+    "id": 132,
+    "marca": "Shineray",
+    "modelo": "JEF 170",
+    "estilo": "Trail",
+    "cilindrada": 169,
+    "cilindros": 1,
+    "peso_seco_kg": 131
+  },
+  {
+    "id": 133,
+    "marca": "Shineray",
+    "modelo": "SHI 175",
+    "estilo": "Trail",
+    "cilindrada": 172,
+    "cilindros": 1,
+    "peso_seco_kg": 135
+  },
+  {
+    "id": 134,
+    "marca": "Shineray",
+    "modelo": "SHI 175S EFI",
+    "estilo": "Trail",
+    "cilindrada": 172,
+    "cilindros": 1,
+    "peso_seco_kg": 135
+  },
+  {
+    "id": 135,
+    "marca": "Shineray",
+    "modelo": "SHI 250",
+    "estilo": "Trail",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 156
+  },
+  {
+    "id": 136,
+    "marca": "Shineray",
+    "modelo": "250F",
+    "estilo": "Trail",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 131
+  },
+  {
+    "id": 137,
+    "marca": "SBM",
+    "modelo": "SBM 150S",
+    "estilo": "Street",
+    "cilindrada": 149,
+    "cilindros": 1,
+    "peso_seco_kg": 137
+  },
+  {
+    "id": 138,
+    "marca": "SBM",
+    "modelo": "SBM 250S",
+    "estilo": "Esportiva",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 162
+  },
+  {
+    "id": 139,
+    "marca": "SBM",
+    "modelo": "SBM 400S",
+    "estilo": "Naked",
+    "cilindrada": 400,
+    "cilindros": 2,
+    "peso_seco_kg": 186
+  },
+  {
+    "id": 140,
+    "marca": "SBM",
+    "modelo": "SBM 400SS",
+    "estilo": "Adventure",
+    "cilindrada": 400,
+    "cilindros": 2,
+    "peso_seco_kg": 197
+  },
+  {
+    "id": 141,
+    "marca": "SBM",
+    "modelo": "SBM 600V",
+    "estilo": "Custom",
+    "cilindrada": 561,
+    "cilindros": 4,
+    "peso_seco_kg": 219
+  },
+  {
+    "id": 142,
+    "marca": "SBM",
+    "modelo": "SBM Storm 200 EFI",
+    "estilo": "Crossover",
+    "cilindrada": 197,
+    "cilindros": 1,
+    "peso_seco_kg": 138
+  },
+  {
+    "id": 143,
+    "marca": "SBM",
+    "modelo": "SBM Iron",
+    "estilo": "Custom",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 171
+  },
+  {
+    "id": 144,
+    "marca": "SBM",
+    "modelo": "SBM Titanium",
+    "estilo": "Custom",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 172
+  },
+  {
+    "id": 145,
+    "marca": "SBM",
+    "modelo": "SBM Denver",
+    "estilo": "Custom",
+    "cilindrada": 249,
+    "cilindros": 1,
+    "peso_seco_kg": 172
+  },
+  {
+    "id": 146,
     "marca": "Bajaj",
     "modelo": "Pulsar N150",
-    "estilo": "Street",
-    "cilindrada": 149.7,
+    "estilo": "Naked",
+    "cilindrada": 149.68,
     "cilindros": 1,
     "peso_seco_kg": 145
   },
   {
-    "id": 30,
+    "id": 147,
     "marca": "Bajaj",
-    "modelo": "Dominar NS160",
+    "modelo": "Pulsar NS160",
     "estilo": "Naked",
     "cilindrada": 160.3,
     "cilindros": 1,
     "peso_seco_kg": 152
   },
   {
-    "id": 31,
+    "id": 148,
     "marca": "Bajaj",
-    "modelo": "Dominar NS200",
+    "modelo": "Pulsar NS200",
     "estilo": "Naked",
     "cilindrada": 199.5,
     "cilindros": 1,
     "peso_seco_kg": 158
   },
   {
-    "id": 32,
+    "id": 149,
+    "marca": "Bajaj",
+    "modelo": "Dominar 160",
+    "estilo": "Naked",
+    "cilindrada": 160.3,
+    "cilindros": 1,
+    "peso_seco_kg": 156
+  },
+  {
+    "id": 150,
+    "marca": "Bajaj",
+    "modelo": "Dominar 200",
+    "estilo": "Naked",
+    "cilindrada": 199.5,
+    "cilindros": 1,
+    "peso_seco_kg": 158
+  },
+  {
+    "id": 151,
     "marca": "Bajaj",
     "modelo": "Dominar 250",
     "estilo": "Naked",
-    "cilindrada": 248.8,
+    "cilindrada": 248.77,
     "cilindros": 1,
     "peso_seco_kg": 180
   },
   {
-    "id": 33,
+    "id": 152,
     "marca": "Bajaj",
     "modelo": "Dominar 400",
     "estilo": "Naked",
     "cilindrada": 373.3,
     "cilindros": 1,
     "peso_seco_kg": 193
-  },
-  {
-    "id": 34,
-    "marca": "Bajaj",
-    "modelo": "Dominar NS400Z",
-    "estilo": "Naked",
-    "cilindrada": 373.3,
-    "cilindros": 1,
-    "peso_seco_kg": 174
-  },
-  {
-    "id": 35,
-    "marca": "Royal Enfield",
-    "modelo": "Hunter 350",
-    "estilo": "Naked",
-    "cilindrada": 349,
-    "cilindros": 1,
-    "peso_seco_kg": 181
-  },
-  {
-    "id": 36,
-    "marca": "Royal Enfield",
-    "modelo": "Classic 350",
-    "estilo": "Clássica",
-    "cilindrada": 349,
-    "cilindros": 1,
-    "peso_seco_kg": 195
-  },
-  {
-    "id": 37,
-    "marca": "Royal Enfield",
-    "modelo": "Meteor 350",
-    "estilo": "Custom",
-    "cilindrada": 349,
-    "cilindros": 1,
-    "peso_seco_kg": 191
-  },
-  {
-    "id": 38,
-    "marca": "Royal Enfield",
-    "modelo": "Himalayan 450",
-    "estilo": "Adventure",
-    "cilindrada": 452,
-    "cilindros": 1,
-    "peso_seco_kg": 196
-  },
-  {
-    "id": 39,
-    "marca": "Royal Enfield",
-    "modelo": "Guerrilla 450",
-    "estilo": "Naked",
-    "cilindrada": 452,
-    "cilindros": 1,
-    "peso_seco_kg": 185
-  },
-  {
-    "id": 40,
-    "marca": "Haojue",
-    "modelo": "DK 160",
-    "estilo": "Street",
-    "cilindrada": 162,
-    "cilindros": 1,
-    "peso_seco_kg": 135
-  },
-  {
-    "id": 41,
-    "marca": "Haojue",
-    "modelo": "DR 160",
-    "estilo": "Naked",
-    "cilindrada": 162,
-    "cilindros": 1,
-    "peso_seco_kg": 139
-  },
-  {
-    "id": 42,
-    "marca": "Haojue",
-    "modelo": "Master Ride 150",
-    "estilo": "Street",
-    "cilindrada": 149,
-    "cilindros": 1,
-    "peso_seco_kg": 131
-  },
-  {
-    "id": 43,
-    "marca": "Haojue",
-    "modelo": "Lindy 125",
-    "estilo": "Scooter",
-    "cilindrada": 124,
-    "cilindros": 1,
-    "peso_seco_kg": 107
-  },
-  {
-    "id": 44,
-    "marca": "Haojue",
-    "modelo": "VR 150",
-    "estilo": "Scooter",
-    "cilindrada": 149,
-    "cilindros": 1,
-    "peso_seco_kg": 113
-  },
-  {
-    "id": 45,
-    "marca": "Shineray",
-    "modelo": "Jet 125SS",
-    "estilo": "Cub",
-    "cilindrada": 123.6,
-    "cilindros": 1,
-    "peso_seco_kg": 106
-  },
-  {
-    "id": 46,
-    "marca": "Shineray",
-    "modelo": "SHI 175 EFI",
-    "estilo": "Street",
-    "cilindrada": 172.4,
-    "cilindros": 1,
-    "peso_seco_kg": 121
-  },
-  {
-    "id": 47,
-    "marca": "Shineray",
-    "modelo": "Denver 250",
-    "estilo": "Custom",
-    "cilindrada": 248.7,
-    "cilindros": 1,
-    "peso_seco_kg": 161
-  },
-  {
-    "id": 48,
-    "marca": "Shineray",
-    "modelo": "Iron 250",
-    "estilo": "Custom",
-    "cilindrada": 248.7,
-    "cilindros": 1,
-    "peso_seco_kg": 169
-  },
-  {
-    "id": 49,
-    "marca": "Dafra",
-    "modelo": "NH 190",
-    "estilo": "Trail",
-    "cilindrada": 183,
-    "cilindros": 1,
-    "peso_seco_kg": 145
-  },
-  {
-    "id": 50,
-    "marca": "Dafra",
-    "modelo": "Cruisym 300",
-    "estilo": "Scooter",
-    "cilindrada": 278.3,
-    "cilindros": 1,
-    "peso_seco_kg": 194
   }
 ]

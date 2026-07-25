@@ -31,7 +31,7 @@
 .painelJogo {
     display: flex;
     flex-direction: column; 
-    gap: 10px; 
+    gap: 20px; 
     margin: 20px auto; /* O 'auto' serve para centralizar o bloco no meio do ecrã */
     width: 70%;
     max-width: 900px; 
