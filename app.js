@@ -24,7 +24,7 @@ async function carregarMotos() {
         const indiceDia = Math.floor(listaMotos.length * seedData/1000000000) % listaMotos.length
         motoDia = listaMotos[indiceDia]
 
-        console.log("A moto do dia é:", motoDia.modelo)
+        // console.log("A moto do dia é:", motoDia.modelo)
 
         const datalist = document.getElementById('sugestoes')
         listaMotos.forEach(moto => {
